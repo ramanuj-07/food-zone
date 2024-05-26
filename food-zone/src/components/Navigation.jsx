@@ -2,7 +2,10 @@ import styled from 'styled-components';
 function Navigation() {
     return (
         <NavigationBar>
-            Food Zone
+            <div className='logo'>
+                Food Zone
+            </div>
+          
         </NavigationBar>
     )
 }
@@ -10,5 +13,9 @@ function Navigation() {
 export default Navigation
 
 const NavigationBar = styled.div`
+
+.logo{
+    
+}
     
 `

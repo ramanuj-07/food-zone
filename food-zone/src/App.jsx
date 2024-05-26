@@ -3,9 +3,17 @@ import styled from 'styled-components';
 function App() {
 
   return (
-    <MainContainer>
-          <Navigation/>
-    </MainContainer>
+    <Container>
+      <TopContainer>
+         <div className='logo'>
+        <h1>FOOD ZONE</h1>
+        </div>
+        <div className='search-bar'>
+          <input type="text" placeholder='Search Food' />
+        </div>
+      </TopContainer>
+     
+    </Container>
 
 
   )
@@ -13,7 +21,13 @@ function App() {
 
 export default App
 
-const MainContainer=styled.div`
-  
+const Container=styled.div`
+  background-color: #ba4343;
+
+`
+const TopContainer=styled.div`
+  .search-bar{
+   
+  }
 
 `
